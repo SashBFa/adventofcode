@@ -1,5 +1,5 @@
 // Importing the fs module
-fs = require('fs');
+const fs = require('fs');
 
 try {
   // Intitializing the readFileLines with filename
