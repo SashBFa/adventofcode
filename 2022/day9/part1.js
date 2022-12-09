@@ -91,4 +91,4 @@ for (const line of input.split('\n')) {
 
 const uniqueTail = [...new Set(xyTail.map(JSON.stringify))].map(JSON.parse);
 
-console.log(uniqueTail.length);
+console.log(xyTail, uniqueTail.length);
